@@ -1,0 +1,63 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr  4 19:14:28 2019
+
+@author: James Bell
+"""
+
+print("  /|")
+print(" / |")
+print("/__|")
+
+#variables
+
+
+character_name = "John"
+character_age = "35"
+print("There once was a man named " + character_name + ", ")
+print("he was " + character_age + " years old. ")
+print("He really liked the name " + character_name, )
+print("but he didn't like being " +  character_age + ".")
+
+
+#concatnation
+
+phrase = "Giraffe Academy"
+print(phrase + " is cool")
+
+#function can get info about strings and modify strings
+
+phrase = "Giraffe Academy"
+print(phrase.lower())
+
+#quotation mark to add backslash in text
+phrase = "Giraffe \"Academy\""
+print(phrase.upper().isupper())
+
+#above returns true becuase it converts to upper and isupper
+#checks to see if it's upper case and returns true. 
+
+#datatypes true/false, string, numbers both int and dec
+
+#to locate index of character
+
+phrase = "Elephant School"
+print(phrase[3])
+
+#index function tells us where a specific string is located
+#passing a parameter
+
+phrase = "Elephant School"
+print(phrase.index("E"))
+
+#can also do this with a word and it'll index at the start
+
+#replace function in a string
+
+phrase = "Dudes drool"
+print(phrase.replace("Dudes", "Boys"))
+
+#Working with Numbers
+
+#stopped at 38:00 in video
+#https://www.youtube.com/watch?v=rfscVS0vtbw
